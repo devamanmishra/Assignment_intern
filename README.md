@@ -44,12 +44,12 @@ This project is a **backend API service** for EzyMetrics, built using **Flask** 
 
    Example for Gmail:
    
-   app.config['MAIL_SERVER'] = 'smtp.gmail.com'
-   app.config['MAIL_PORT'] = 587
-   app.config['MAIL_USE_TLS'] = True
-   app.config['MAIL_USERNAME'] = 'your-email@gmail.com'
-   app.config['MAIL_PASSWORD'] = 'your-app-password'  # Use an app-specific password
-   app.config['MAIL_DEFAULT_SENDER'] = 'yourmail@gmail.com'
+   - app.config['MAIL_SERVER'] = 'smtp.gmail.com'
+   - app.config['MAIL_PORT'] = 587
+   - app.config['MAIL_USE_TLS'] = True
+   - app.config['MAIL_USERNAME'] = 'your-email@gmail.com'
+   - app.config['MAIL_PASSWORD'] = 'your-app-password'  # Use an app-specific password
+   - app.config['MAIL_DEFAULT_SENDER'] = 'yourmail@gmail.com'
 
 6. **Setup MongoDB**:
    Ensure that MongoDB is running locally or connect to MongoDB Atlas by updating the MongoDB connection string in `app.py` if needed:
