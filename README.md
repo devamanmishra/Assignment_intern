@@ -23,7 +23,7 @@ This project is a **backend API service** for EzyMetrics, built using **Flask** 
 ## **Prerequisites**
 
 1. **Python 3.9+**: Make sure you have Python installed on your system.
-2. **MongoDB**: Ensure you have MongoDB installed locally or use **MongoDB Atlas** (cloud version).
+2. **MongoDB**: Ensure you have MongoDB installed locally or use **MongoDB Atlas** (cloud version). recommended - (MongoDB Atlas)
 3. **wkhtmltopdf**: Required for generating PDF reports.
 4. **Flask-Mail**: You will need an SMTP server to send email alerts. For Gmail, ensure you have an **app-specific password** if 2-factor authentication is enabled.
 
